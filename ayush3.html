@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+	<!-- Icons-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Home-Page</title>
+	
+	<style type="text/css">
+	html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+	#background-1{
+	width:100%;
+	height:600px;
+	opacity:0.7;
+	}
+	
+	#heading{
+	
+	position:relative;
+	left:45%;
+	font-size:30px;
+	}
+	.fa {
+	  height:20px;
+	  font-size: 23px;
+	  width: 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin:10px 20px 20px 40px;
+	}
+
+	.fa:hover {
+		opacity: 0.7;
+	}
+
+	.fa-facebook {
+	
+	  color: white;
+	}
+
+	.fa-twitter {
+	
+	  color: white;
+	}
+	
+	.fa-instagram {
+  
+	  color: white;
+	}
+	
+	#icons{
+	float:right;
+	position:relative;
+	left:-20px;
+	top:5px;
+	}
+	#caption{
+	position:absolute;
+	top:250px;
+	color:white;
+	left:160px;
+	
+	}
+
+	#caption-2{
+	position:absolute;
+	top:360px;
+	color:white;
+	left:200px;
+	font-family: 'Courier New', monospace;
+	font-size:25px;
+	}
+
+	#recipe{
+	padding:20px;
+	}
+	
+	.recipe-pic{
+	height:350px;
+	width:300px;
+	margin:10px;
+	}
+
+	
+	#container-1{
+	padding:10px;
+	margin:10px;
+	float:left;
+	width:67%;
+	height:600px;
+	
+	}
+	#container-2{
+	padding:30px;
+	margin:30px 10px;
+	float:right;
+	width:30%;
+	height:1340px;
+	background-color:#D9E6EF;
+	position:relative;
+	top:50px;
+	}
+	.align{
+	text-align:center;
+	}
+	hr.black-line{
+	border-top:1px solid black;
+	width:600px;
+	}
+	.recipe-block{
+	margin:20px;
+	width:96%;
+	height:400px;
+	background-color:#FAEEC8;
+	padding:5px;
+	}
+	.text-block{
+	float:right;
+	
+	width:400px;
+	height:350px;
+	}
+	.text-heading{
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size:30px;
+	margin:20px;
+	
+	text-align:center
+	}
+	.text{
+	font-family: 'Courier New', monospace;
+	text-align:center;
+	}
+	.button {
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position:relative;
+  left:100px;
+}
+	#tip-heading{
+	font-family: Garamond, serif;;
+	font-size:45px;
+	text-align:center;
+	padding-bottom:20px;
+	}
+	.tip-heading-2{
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:25px;
+	}
+	.tip-text{
+	font-family: 'Courier New', monospace;
+	padding:2px;
+	}
+	#christmas-container{
+
+	position:relative;
+	top:-590px;
+	float:left;
+	width:100%;
+	height:500px;
+	
+	}
+	
+	#christmas-container-2{
+background-color:#E7717D;
+	padding:10px;
+	margin:10px;
+	float:left;
+	width:97%;
+	height:650px;
+	
+	
+	}
+	.c-img-1{
+	position:relative;
+	left:7%;
+	margin:40px;
+	height:350px;
+	width:500px;
+	float:left;
+	border-radius:20px;
+	}
+	.c-img-2{
+	position:relative;
+	left:-2%;
+	margin:40px;
+	height:350px;
+	width:500px;
+	float:right;
+	border-radius:20px;
+	}
+	
+	.grey-container{
+	float:left;
+	background-color:#F1F2F2;
+	width:400px;
+	height:170px;
+	position:relative;
+	top:-90px;
+		position:relative;
+	left:10%;
+	margin:0px 40px 40px 40px;
+	
+border-radius:20px;
+	}
+	
+	.c-heading{
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size:30px;
+	margin:30px;
+	
+	text-align:center
+	}
+	.adjust{
+	position:relative;
+	left:150px;
+	}
+	.grey-container-2{
+	float:right;
+	background-color:#F1F2F2;
+	width:400px;
+	height:170px;
+	position:relative;
+	top:-90px;
+		position:relative;
+	left:-50px;
+	margin:0px 40px 40px 40px;
+	
+border-radius:20px;
+	}
+	
+	
+	
+	
+	
+	#footer {
+   position:absolute;
+  /*  top:445%;;*/
+  top:3100px;
+   height:300px;
+   width:100%;
+   background:#D3DDDC;
+}
+ .f-text{
+ margin:50px;
+ }
+
+	
+	.grey-footer-text{
+	
+	margin-left:100px;
+	margin:right:100px;
+	margin-top:20px;
+	float:left;
+	font-size:20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+
+
+/*section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: rgb(26, 26, 27);
+}
+*/
+.container {
+  width: 100%;
+  height: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2px;
+}
+.brand {
+  text-align: center;
+  font-size: 4rem;
+  color: whitesmoke;
+  margin-bottom:10px;
+}
+/*form {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: rgb(223, 223, 223);
+}
+input {
+  width: 500px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  background-color: rgb(223, 223, 223);
+  display: inline-block;
+}
+form ion-icon {
+  width: 8%;
+  font-size: 3rem;
+  margin-bottom: -8px;
+  color: rgb(75, 75, 75);
+  display: inline-block;
+}
+*/
+.search-result {
+  margin-top: 50px;
+	width:100%;
+	height:50px;
+	}
+ /*width: 100%;
+  display: grid;
+  grid-gap: 25px;
+  grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));*/
+/*.item {
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgb(37, 37, 37);
+  padding:2px;
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
+  height: 20px;
+  border-radius: 1px;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-result .title {
+  color: whitesmoke;
+  margin: 20px 10px 0 0;
+ font-size: 1.8rem;
+  font-weight: 400;
+ 
+}
+.view-btn {
+  text-decoration: none;
+  text-align: center;
+  width: 130px;
+  padding: 10px 0;
+  background-color: #404041;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 4px;
+  align-self: flex-start;
+}
+.item-data {
+  color: whitesmoke;
+  display: block;
+  margin-top: 2px;
+  font-size:5px;
+}
+*/
+
+
+
+
+
+
+.item {
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgb(37, 37, 37);
+  padding: 15px;
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-result .title {
+  color: whitesmoke;
+  margin: 20px 10px 0 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.view-btn {
+  text-decoration: none;
+  text-align: center;
+  width: 130px;
+  padding: 10px 0;
+  background-color: #404041;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 4px;
+  align-self: flex-start;
+}
+.item-data {
+  color: whitesmoke;
+  display: block;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  line-height: 2rem;
+}
+.container.initial .brand {
+  font-size: 7rem;
+}
+.container.initial form {
+  max-width: 800px;
+}
+.container.initial form input {
+  padding: 20px;
+  font-size: 3rem;
+}
+
+@media (max-width: 768px)
+.scroll-container{
+position:relative;
+top:-200px;
+}
+
+.scroll{
+width:500px;
+height: 105px; 
+overflow-y : scroll;
+overflow-x : hidden;
+float:right;
+
+}
+
+.adjust-3{
+position:relative;
+top:-200px;
+}
+
+#bs{
+width:590px;
+height:50px;
+}
+#contain{
+position:relative;
+top:30px;
+}
+#christmas-container{
+top:20px;
+}
+
+	
+
+	</style>
+  </head>
+  <body>
+  
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a  id="heading"class="navbar-brand" href="#">Ayush Panda</a>
+	<div id="icons">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+
+<a href="#" class="fa fa-instagram"></a>
+
+</div>
+  </div>
+</nav>
+<div class="w3-content w3-section" style="max-width:600px","align:center">
+  <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p>
+
+  <img class="mySlides w3-animate-fading" src="firstphoto.png" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="secondphoto.png" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="thirdphoto.png" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="fourthphoto.png" style="width:100%">
+</div>
+<div id="contain" class="grid-container">
+<div id="container-1"class="grid-child">
+
+<h1 class="display-4 align"style="text-align:left">What's so special about him?</h1>
+<hr class="black-line">
+<div class="recipe-block">
+<img class="recipe-pic"src="two.jpg">
+<div class="text-block">
+<p class="text-heading">Commerce walon ko Finance mei peeche chodne ka ghamand hai</p>
+<p class="text">Despite being from engineering background, Ayush has never considered it as a setback and has always worked towards gaining the maximum knowledge possible.</p>
+<button class="button" id="myButton">Know More</button>
+</div>
+</div>
+
+
+<div class="recipe-block">
+<img class="recipe-pic"src="three.jpg">
+<div class="text-block">
+<p class="text-heading">His heart reflects in his words</p>
+<p class="text">Never have I come across someone as confident as you. The clarity in you have in your thoughts is what made me attracted towards you.</p>
+<button class="button" id="myButton-2">Know more</button>
+</div>
+</div>
+
+
+<div class="recipe-block">
+<img class="recipe-pic"src="one.jpg">
+<div class="text-block">
+<p class="text-heading">Old School</p>
+<p class="text">efforts matter to you, you notice even minor details(shows how important things are to you), you watch 90's ki movie( I always thought ki tu "keeping up with the Kardashians" dekhne wala ladka hai)</p>
+<button class="button" id="myButton-3">Know More</button>
+</div>
+</div>
+</div>
+<div id="container-2" class="grid-child" style="font-size:23px">
+<div id="tip-heading">5 Ninja Techniques to kidnap him</div>
+<div class="tip-heading-2">1. Bring a cute baby in front of his eyes</div>
+<div class="tip-text">
+ No matter how angry he is, babies release dopamine in him. Caution: He gets very cute after seeing babies.  
+
+</div>
+
+<div class="tip-heading-2">2. Cook a delicious dish</div>
+
+<div class="tip-text">
+He gets attracted to the fragrance of the food and can go till any extent to taste it. 
+</div>
+
+<div class="tip-heading-2">3. New Sneaker drop</div>
+
+<div class="tip-text">
+ Sneakers are like a child to him. Whenever his new baby arrives, he's not taking his eyes off him for a long time
+
+</div>
+
+
+<div class="tip-heading-2">4. Indulge him in finance</div>
+
+<div class="tip-text">
+ He's so generous that he likes to share his knowledge and doesn't hesitate to learn from others.
+</div>
+
+
+
+<div class="tip-heading-2">5. Surprise!!!</div>
+
+<div class="tip-text">
+ Despite this 4 techniques, he is smart enough to not fall prey for this things; So, nice try!
+
+</div>
+</div>
+</div>
+<div id="christmas-container">
+<h1 class="display-4 align" style="text-align:left","padding:2px">Favourite Food</h1>
+<hr class="black-line">
+<div id="christmas-container-2">
+
+
+
+
+
+<img class="c-img-1"src="nail.jpg">
+<img class="c-img-2"src="hair.jpg">
+<div class="grey-container">
+<p class="c-heading">Crispy Nails</p>
+</div>
+<div class="grey-container-2 ">
+<p class="c-heading">Freshly washed hair</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<br>
+<div id="footer">
+
+<h1 class="display-4 align f-text">Contact Us !</h1>
+<p class="grey-footer-text">+91 6969696969</p>
+<p class="grey-footer-text">ayushthehottiegmail.com</p>
+<p class="grey-footer-text">stopstalkinghimgirl@gmail.com </p>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+
+
+
+
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	 <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <script type="text/javascript">
+
+
+
+
+
+  document.getElementById("myButton").onclick = function () {
+        location.href = "bio.html";
+    };
+	
+	
+	document.getElementById("myButton-2").onclick = function () {
+        location.href = "bio.html";
+    };
+	
+	document.getElementById("myButton-3").onclick = function () {
+        location.href = "bio.html";
+    };
+	document.getElementById("myButton-4").onclick = function () {
+        location.href = "hack-2/text-3.html";
+    };
+	
+	document.getElementById("myButton-5").onclick = function () {
+        location.href = "hack-2/text-1.html";
+    };
+
+
+	
+	
+	
+	const searchForm = document.querySelector("form");
+const searchResultDiv = document.querySelector(".search-result");
+const container = document.querySelector(".container");
+let searchQuery = "";
+const APP_ID = "0afafdc7";
+const APP_key = "69cb8af4aa436ea914b9305824fa8871";
+// console.log(container)
+searchForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  searchQuery = e.target.querySelector("input").value;
+  fetchAPI();
+});
+
+async function fetchAPI() {
+  const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&from=0&to=20`;
+  const response = await fetch(baseURL);
+  const data = await response.json();
+  generateHTML(data.hits);
+  console.log(data);
+}
+
+function generateHTML(results) {
+  container.classList.remove("initial");
+  let generatedHTML = "";
+  results.map((result) => {
+    generatedHTML += `
+      <div class="item">
+
+        <div class="flex-container">
+          <h1 class="title">${result.recipe.label}</h1>
+          <a class="view-btn" target="_blank" href="${
+            result.recipe.url
+          }">View Recipe</a>
+        </div>
+       
+      </div>
+	  
+	    `;
+  });
+  searchResultDiv.innerHTML = generatedHTML;
+}	
+</script>
+</body>
+</html>
